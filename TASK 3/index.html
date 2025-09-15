@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puppy Photography App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🐾 Puppy Photography App</h1>
+    <p>Enjoy adorable dog pictures, a gallery, and more!</p>
+    <button id="theme-toggle">☀️ Light Mode</button>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <h2>Featured Puppies</h2>
+    <div class="carousel-container">
+      <button class="prev-btn">⟨</button>
+      <div class="carousel-images">
+        <img src="https://images.dog.ceo/breeds/shiba/shiba-13.jpg" alt="Puppy 1">
+        <img src="https://images.dog.ceo/breeds/labrador/n02099712_5641.jpg" alt="Puppy 2">
+        <img src="https://images.dog.ceo/breeds/poodle-miniature/n02113712_1375.jpg" alt="Puppy 3">
+      </div>
+      <button class="next-btn">⟩</button>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery-section">
+    <h2>🐶 Puppy Gallery</h2>
+    <div class="gallery"></div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact-section">
+    <h2>📩 Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>🐕 Made with love for puppy fans ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
